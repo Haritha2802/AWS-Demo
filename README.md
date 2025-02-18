@@ -3,7 +3,7 @@
 
 ## AWS CLI
 AWS Command Line Interface (CLI) is a tool that enables users to interact with AWS services using command-line commands. It provides an efficient and automated way to manage AWS resources without using the AWS Management Console. The AWS CLI supports multiple operating systems and can be integrated into scripts and automation workflows.
-![alt text](image.png)
+
 ### Features of AWS CLI:
 - Simplifies interaction with AWS services.
 - Supports automation through scripts.
@@ -21,12 +21,8 @@ AWS Command Line Interface (CLI) is a tool that enables users to interact with A
 - aws ec2 describe-instances – Retrieves details of EC2 instances.
 - aws iam list-users – Lists IAM users in the AWS account.
 
-![alt text](Assests/image-1.png)
-![alt text](Assests/Picture1.png)
-![alt text](Assests/Picture2.png)
-![alt text](Assests/Picture3.png)
-![alt text](Assests/Picture4.png)
-![alt text](Assests/Picture5.png)
+![alt text](Assests/terminal.png)
+
 
 
 
@@ -45,12 +41,26 @@ AWS IAM is a security service that enables organizations to manage user access t
 - Helps enforce least privilege principles.
 - Enables centralized user management and monitoring.
 
+![alt text](Assests/Picture1.png)
+![alt text](Assests/Picture2.png)
+![alt text](Assests/Picture3.png)
+![alt text](Assests/Picture4.png)
+![alt text](Assests/Picture5.png)
+![alt text](Assests/Picture9.png)
+![alt text](Assests/Picture10.png)
+![alt text](Assests/Picture11.png)
+![alt text](Assests/Picture12.png)
+![alt text](Assests/Picture13.png)
+![alt text](Assests/Picture14.png)
+![alt text](Assests/terminal2.png)
+
+
 
 
 ## Amazon S3 (Simple Storage Service)
 Amazon S3 is an object storage service that provides highly scalable, secure, and durable cloud storage for a wide range of applications.
 
-![alt text](Assests/S3_console.png)
+
 ### Key Features of S3:
 - **Scalability:** Handles unlimited data storage.
 - **Durability:** Offers 99.999999999% (11 9’s) durability.
@@ -64,9 +74,24 @@ Amazon S3 is an object storage service that provides highly scalable, secure, an
 - Data archiving and long-term storage.
 - Big data analytics and machine learning.
 
-![alt text](Assests/hello.png)
+![alt text](Assests/Picture6.png)
+![alt text](Assests/Picture7.png)
+![alt text](Assests/Picture8.png)
+![alt text](Assests/Picture15.png)
+![alt text](Assests/Picture16.png)
+![alt text](Assests/Picture17.png)
+![alt text](Assests/Picture18.png)
+![alt text](Assests/Picture19.png)
+![alt text](Assests/Picture20.png)
+![alt text](Assests/Picture21.png)
+![alt text](Assests/Picture22.png)
+![alt text](Assests/Picture23.png)
+![alt text](Assests/Picture24.png)
+![alt text](Assests/Picture25.png)
+![alt text](Assests/Picture26.png)
+![alt text](Assests/Picture27.png)
+![alt text](Assests/terminal3.png)
 
-![alt text](Assests/hi.png)
 
 
 ## AWS Glue
