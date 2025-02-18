@@ -51,10 +51,12 @@ Amazon S3 is an object storage service that provides highly scalable, secure, an
 - Data archiving and long-term storage.
 - Big data analytics and machine learning.
 
+![alt text](Assests/hello.png)
 
 
 ## AWS Glue
 AWS Glue is a serverless data integration service that simplifies the process of discovering, preparing, and transforming data for analytics and machine learning applications.
+
 
 ### Components of AWS Glue:
 - **Glue Data Catalog:** A centralized repository that stores metadata about datasets.
