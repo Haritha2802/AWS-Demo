@@ -21,8 +21,12 @@ AWS Command Line Interface (CLI) is a tool that enables users to interact with A
 - aws ec2 describe-instances – Retrieves details of EC2 instances.
 - aws iam list-users – Lists IAM users in the AWS account.
 
-![alt text](image-1.png)
-
+![alt text](Assests/image-1.png)
+![alt text](Assests/Picture1.png)
+![alt text](Assests/Picture2.png)
+![alt text](Assests/Picture3.png)
+![alt text](Assests/Picture4.png)
+![alt text](Assests/Picture5.png)
 
 
 
