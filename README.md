@@ -15,6 +15,15 @@ AWS Command Line Interface (CLI) is a tool that enables users to interact with A
 - Enhances automation and scalability of cloud-based operations.
 - Helps in bulk operations and batch processing of AWS resources.
 
+### Basic AWS CLI Commands:
+- aws configure – Configures the AWS CLI with access key, secret key, region, and output format.
+- aws s3 ls – Lists S3 buckets.
+- aws ec2 describe-instances – Retrieves details of EC2 instances.
+- aws iam list-users – Lists IAM users in the AWS account.
+
+![alt text](image-1.png)
+
+
 
 
 ## AWS IAM (Identity and Access Management)
