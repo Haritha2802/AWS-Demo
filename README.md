@@ -45,7 +45,6 @@ AWS IAM is a security service that enables organizations to manage user access t
 ![alt text](Assests/Picture2.png)
 ![alt text](Assests/Picture3.png)
 ![alt text](Assests/Picture4.png)
-![alt text](Assests/Picture5.png)
 ![alt text](Assests/Picture9.png)
 ![alt text](Assests/Picture10.png)
 ![alt text](Assests/Picture11.png)
@@ -95,7 +94,7 @@ Amazon S3 is an object storage service that provides highly scalable, secure, an
 
 
 ## AWS Glue
-AWS Glue is a serverless data integration service that simplifies the process of discovering, preparing, and transforming data for analytics and machine learning applications.
+AWS Glue is a serverless data integration service that simplifies the process of discovering, preparing, and transforming data for analytics and machine learning applications.It is commonly used for ETL (Extract, Transform, Load) workflows.
 
 
 ### Components of AWS Glue:
@@ -114,6 +113,24 @@ AWS Glue is a serverless data integration service that simplifies the process of
 - Extracting, transforming, and loading (ETL) data for analytics.
 - Creating and managing data catalogs for data lakes.
 - Integrating with Amazon Redshift, S3, and other AWS services for data processing.
+
+### Glue Database:
+- In AWS Glue, a database is a logical container used to organize and store metadata about your data. It does not store the actual data but keeps track of where data is stored (e.g., in Amazon S3), its schema, and other relevant information.
+
+## Key Features of an AWS Glue Database:
+- Metadata Storage: Stores table definitions, schemas, and data locations in the AWS Glue Data Catalog.
+- Logical Organization: Helps categorize tables based on use cases, projects, or departments.
+- Integration with Other AWS Services: Works with Athena, Redshift Spectrum, and EMR for querying and processing data.
+- Supports Multiple Data Sources: Can store metadata for data stored in Amazon S3, RDS, Redshift, DynamoDB, and external sources.
+
+- Create an AWS Glue database named "project_db".
+- Within this database, define tables such as "customers", "orders", and "products".
+- Query these tables using AWS Athena or process them using AWS Glue ETL jobs.
+
+![alt text](Assests/Picture29.png)
+![alt text](Assests/Picture30.png)
+![alt text](Assests/Picture31.png)
+![alt text](Assests/Picture32.png)
 
 
 
