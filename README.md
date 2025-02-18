@@ -3,9 +3,7 @@
 
 ## AWS CLI
 AWS Command Line Interface (CLI) is a tool that enables users to interact with AWS services using command-line commands. It provides an efficient and automated way to manage AWS resources without using the AWS Management Console. The AWS CLI supports multiple operating systems and can be integrated into scripts and automation workflows.
-
-![Alt text](image.png)
-
+![alt text](image.png)
 ### Features of AWS CLI:
 - Simplifies interaction with AWS services.
 - Supports automation through scripts.
@@ -39,6 +37,7 @@ AWS IAM is a security service that enables organizations to manage user access t
 ## Amazon S3 (Simple Storage Service)
 Amazon S3 is an object storage service that provides highly scalable, secure, and durable cloud storage for a wide range of applications.
 
+![alt text](Assests/S3_console.png)
 ### Key Features of S3:
 - **Scalability:** Handles unlimited data storage.
 - **Durability:** Offers 99.999999999% (11 9’s) durability.
