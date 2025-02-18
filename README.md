@@ -130,6 +130,7 @@ AWS Glue is a serverless data integration service that simplifies the process of
 ![alt text](Assests/Picture28.png)
 ![alt text](Assests/Picture29.png)
 ![alt text](Assests/Picture30.png)
+![alt text](Assests/Picture31.png)
 
 
 ### AWS Glue Tables
@@ -142,12 +143,58 @@ AWS Glue is a serverless data integration service that simplifies the process of
 - Partitioning (Optional) – Helps improve query performance by organizing data into partitions (e.g., by year, month, or region).
 - Input/Output Format – Defines how data should be read and written (e.g., using Apache Hive SerDe for CSV or Parquet).
 
-![alt text](Assests/Picture31.png)
+
 ![alt text](Assests/Picture32.png)
 ![alt text](Assests/Picture33.png)
 ![alt text](Assests/Picture34.png)
 ![alt text](Assests/Picture35.png)
 ![alt text](Assests/Picture36.png)
 ![alt text](Assests/Picture37.png)
+
+### AWS Glue Crawlers
+AWS Glue crawlers are automated tools that scan data sources, infer their schema, and create or update metadata tables in the AWS Glue Data Catalog. They help maintain an up-to-date schema without manual intervention.
+
+![alt text](Assests/Picture38.png)
+![alt text](Assests/Picture39.png)
+![alt text](Assests/Picture40.png)
+![alt text](Assests/Picture41.png)
+![alt text](Assests/Picture42.png)
+![alt text](Assests/Picture43.png)
+![alt text](Assests/Picture44.png)
+![alt text](Assests/Picture45.png)
+![alt text](Assests/Picture46.png)
+![alt text](Assests/Picture47.png)
+
+### AWS Glue Connectors
+AWS Glue Connectors enable seamless data integration between AWS Glue and external data sources, such as databases, SaaS applications, and other cloud services. These connectors simplify ETL (Extract, Transform, Load) workflows by providing pre-built integrations with various data systems.
+
+![alt text](Assests/Picture48.png)
+![alt text](Assests/Picture49.png)
+![alt text](Assests/Picture50.png)
+![alt text](Assests/Picture51.png)
+![alt text](Assests/Picture52.png)
+![alt text](Assests/Picture53.png)
+
+### AWS Glue Triggers
+AWS Glue Triggers are used to automate the execution of AWS Glue ETL jobs or workflows based on events, schedules, or job dependencies.
+
+###Types of AWS Glue Triggers
+- On-Demand Triggers
+Manually start an AWS Glue job.
+
+- Scheduled Triggers
+Run Glue jobs at fixed intervals (cron expressions or rate-based schedules).
+
+- Event-Based (Job-Completion) Triggers
+Automatically start a Glue job when another job succeeds, fails, or stops.
+
+- AWS Glue can be triggered by Amazon EventBridge or AWS Lambda functions.
+Example: Start a Glue job when a new file is uploaded to an S3 bucket.
+
+![alt text](Assests/Picture54.png)
+![alt text](Assests/Picture55.png)
+![alt text](Assests/Picture56.png)
+
+
 
 
