@@ -127,10 +127,27 @@ AWS Glue is a serverless data integration service that simplifies the process of
 - Within this database, define tables such as "customers", "orders", and "products".
 - Query these tables using AWS Athena or process them using AWS Glue ETL jobs.
 
+![alt text](Assests/Picture28.png)
 ![alt text](Assests/Picture29.png)
 ![alt text](Assests/Picture30.png)
+
+
+### AWS Glue Tables
+- Key Components of an AWS Glue Table
+- Table Name – A unique name identifying the table within an AWS Glue database.
+- Database – Every table belongs to a specific Glue database, which acts as a logical grouping.
+- Schema (Column Definitions) – Defines column names, data types (e.g., string, integer, timestamp), and partition keys.
+- Data Format – Specifies the format of the stored data, such as Parquet, ORC, Avro, JSON, CSV, etc..
+- Location – The S3 path or data source location where the actual data resides.
+- Partitioning (Optional) – Helps improve query performance by organizing data into partitions (e.g., by year, month, or region).
+- Input/Output Format – Defines how data should be read and written (e.g., using Apache Hive SerDe for CSV or Parquet).
+
 ![alt text](Assests/Picture31.png)
 ![alt text](Assests/Picture32.png)
-
+![alt text](Assests/Picture33.png)
+![alt text](Assests/Picture34.png)
+![alt text](Assests/Picture35.png)
+![alt text](Assests/Picture36.png)
+![alt text](Assests/Picture37.png)
 
 
