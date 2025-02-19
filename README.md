@@ -52,6 +52,13 @@ AWS IAM is a security service that enables organizations to manage user access t
 ![alt text](Assests/Picture13.png)
 ![alt text](Assests/Picture14.png)
 ![alt text](Assests/terminal2.png)
+![alt text](Assests/Picture57.png)
+![alt text](Assests/Picture58.png)
+![alt text](Assests/Picture59.png)
+![alt text](Assests/Picture60.png)
+![alt text](Assests/Picture61.png)
+![alt text](Assests/Picture62.png)
+
 
 
 
