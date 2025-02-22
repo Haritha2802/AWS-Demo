@@ -63,6 +63,8 @@ AWS IAM is a security service that enables organizations to manage user access t
 
 
 
+
+
 ## Amazon S3 (Simple Storage Service)
 Amazon S3 is an object storage service that provides highly scalable, secure, and durable cloud storage for a wide range of applications.
 
@@ -201,6 +203,41 @@ Example: Start a Glue job when a new file is uploaded to an S3 bucket.
 ![alt text](Assests/Picture54.png)
 ![alt text](Assests/Picture55.png)
 ![alt text](Assests/Picture56.png)
+
+### Amazon Athena
+Amazon Athena is an interactive query service that enables you to analyze large datasets directly in Amazon S3 using SQL. It's serverless, meaning you don't need to set up or manage any servers. Athena automatically scales to handle your queries, and you only pay for the amount of data scanned."
+
+"Some of the key features of Athena include:
+
+- Serverless architecture - No need for infrastructure management.
+- SQL support - Query your data using standard SQL syntax.
+- Cost-effective - You pay only for the data you query.
+- Integrated with AWS services - It integrates easily with other services like AWS Glue and Amazon S3."
+
+![alt text](Assests/Athena.png)
+
+### How Athena Works
+- Data stored in Amazon S3
+- Schema defined using AWS Glue or manually
+- Queries executed via Athena console, SDK, or JDBC/ODBC
+- Results stored back in S3 or integrated with BI tools
+
+### Setting Up Amazon Athena
+
+To use Amazon Athena, the data you want to query needs to be stored in Amazon S3. Athena queries this data directly, and there’s no need to load or move the data into Athena itself. You define tables in Athena that point to this S3 data.
+
+- Creating a Database: Athena requires you to define a logical database. A database is a container for tables, where you store your schema information.
+- Creating a Table: Athena tables are defined over data stored in Amazon S3. A table maps the structure of your data (such as the columns and their types) to a data location in S3. Athena can read several formats like CSV, JSON, or Parquet.
+
+![alt text](Assests/Picturea1.png)
+![alt text](Assests/Picturea3.png)
+![alt text](Assests/Picturea4.png)
+![alt text](Assests/Picturea5.png)
+![alt text](Assests/Picturea6.png)
+![alt text](Assests/Picturea7.png)
+
+
+
 
 
 
