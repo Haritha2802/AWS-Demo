@@ -1,5 +1,5 @@
 # AWS
-# AWS CLI, IAM, S3, and AWS Glue
+# AWS CLI, IAM, S3, AWS Glue , Amazon Athena , 
 
 ## AWS CLI
 AWS Command Line Interface (CLI) is a tool that enables users to interact with AWS services using command-line commands. It provides an efficient and automated way to manage AWS resources without using the AWS Management Console. The AWS CLI supports multiple operating systems and can be integrated into scripts and automation workflows.
@@ -235,6 +235,36 @@ To use Amazon Athena, the data you want to query needs to be stored in Amazon S3
 ![alt text](Assests/Picturea5.png)
 ![alt text](Assests/Picturea6.png)
 ![alt text](Assests/Picturea7.png)
+
+### AWS RDS
+AWS RDS (Relational Database Service) is a fully managed database service provided by Amazon Web Services (AWS). It helps you set up, operate, and scale a relational database in the cloud with ease.
+
+PostgreSQL is an open-source, object-relational database system that has advanced features and a rich extension ecosystem. AWS offers PostgreSQL as a managed service through Amazon RDS, which automates common database management tasks such as backups, patching, and scaling.
+
+### Key Features of AWS RDS PostgreSQL:
+
+- Managed Service: No need to manage the database infrastructure, backups, or patches.
+- Scalability: Easily scale the database to handle growing workloads.
+- Automated Backups: RDS automatically performs backups of your database and allows you to restore to any point within the retention period.
+- High Availability: RDS offers Multi-AZ deployments, providing automatic failover for high availability.
+- Security: Includes encryption at rest and in transit, IAM authentication, and Virtual Private Cloud (VPC) support.
+
+![alt text](Assests/Screenshot1.png)
+![alt text](Assests/Screenshot2.png)
+![alt text](Assests/Screenshot4.png)
+![alt text](Assests/screenshot5.png)
+![alt text](Assests/screenshot6.png)
+![alt text](Assests/Screenshot8.png)
+
+
+
+
+
+
+
+
+
+
 
 
 
