@@ -123,7 +123,7 @@ AWS Glue is a serverless data integration service that simplifies the process of
 - Creating and managing data catalogs for data lakes.
 - Integrating with Amazon Redshift, S3, and other AWS services for data processing.
 
-### Glue Database:
+### Glue Catlog:
 - In AWS Glue, a database is a logical container used to organize and store metadata about your data. It does not store the actual data but keeps track of where data is stored (e.g., in Amazon S3), its schema, and other relevant information.
 
 ## Key Features of an AWS Glue Database:
